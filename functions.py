@@ -1,7 +1,8 @@
 
 # Auxiliary functions
 
-# adapted from Boareto et al, "Notch-Jagged signalling can give rise to clusters of cells exhibiting a hybrid epithelial/mesenchymal phenotype", please check https://github.com/mboareto for the original version of the auxiliary functions file
+# adapted from Boareto et al, "Notch-Jagged signalling can give rise to clusters of cells exhibiting a hybrid epithelial/mesenchymal phenotype" 
+# please check https://github.com/mboareto for the original version of the auxiliary functions file
 
 from PyDSTool import *
 from PyDSTool.Toolbox import phaseplane as pp
