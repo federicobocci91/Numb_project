@@ -47,8 +47,8 @@ aux.plot_hex(pts_J045[key], clim=clim, tr=[5000,15000], c=[34000, 22000, 10000],
 # fig. 3e
 
 p['gJ'] = 80
-pts_J085 = aux.euler_traj(eqs, p, pts=pts_i, vlim=aux.vlim(numb=numb))
-aux.plot_hex(pts_J070[key], clim=clim, tr=[5000,15000], c=[34000, 22000, 10000], cbar=False)
+pts_J080 = aux.euler_traj(eqs, p, pts=pts_i, vlim=aux.vlim(numb=numb))
+aux.plot_hex(pts_J080[key], clim=clim, tr=[5000,15000], c=[34000, 22000, 10000], cbar=False)
 
 
 
@@ -100,8 +100,8 @@ aux.plot_hex(pts_J045[key], clim=clim, tr=[5000,15000], c=[34000, 22000, 10000],
 # fig. 3f
 
 p['gJ'] = 80
-pts_J085 = aux.euler_traj(eqs, p, pts=pts_i, vlim=aux.vlim(numb=numb))
-aux.plot_hex(pts_J070[key], clim=clim, tr=[5000,15000], c=[34000, 22000, 10000], cbar=False)
+pts_J080 = aux.euler_traj(eqs, p, pts=pts_i, vlim=aux.vlim(numb=numb))
+aux.plot_hex(pts_J080[key], clim=clim, tr=[5000,15000], c=[34000, 22000, 10000], cbar=False)
 
 
 
